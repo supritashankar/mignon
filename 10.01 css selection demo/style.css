@@ -54,9 +54,25 @@ table {
 
 
 body {
-	background: #ff0;
+}
+
+header > a:first-child{
+	border:3px solid #0000;
+	display:block;
 }
 
 header nav:nth-of-type(2) {
 	background:#fcf;
+
+}
+
+article > section {
+	background: #0ff;
+}
+article aside section {
+	background: #f0f;
+}
+
+section + aside {
+	border-bottom: 10px solid #36F;
 }
