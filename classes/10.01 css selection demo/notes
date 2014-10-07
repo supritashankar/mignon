@@ -1,0 +1,8 @@
+1. put the first nav also the whole thing in an header
+2. body = p + img put it in section
+<section>
+</section>
+<section>
+	<aside>
+	</aside>
+</section>

@@ -1,0 +1,122 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background: #ccc;
+	padding: 0 20px;
+	font-size: 1.2em;
+}
+
+.clear {
+	clear: both;
+}
+
+header,
+section,
+footer {
+	max-width: 1000px;
+	padding: 0 20px;
+	background: #fff;
+	margin: 0 auto;
+}
+
+header {
+	padding-top: 1em;
+}
+
+
+/* nav #logo {
+	display: block;
+	width: 15%;
+	height: auto;
+	float: left;
+}
+
+nav #logo img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+nav ul {
+	display: block;
+	width: 80%;
+	padding-left: 5%;
+	float: left;
+}
+
+*/
+
+nav #logo {
+	display: inline-block;
+	width: 15%;
+	
+}
+
+nav #logo img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+nav ul {
+	display: inline-block;
+	width: 80%;
+	padding-left: 5%;
+	
+}
+
+nav ul li {
+	display: inline-block;
+	padding-right: 1em;
+}
+
+nav ul li a {
+	padding: 1em;
+	display:block;
+	background: #69C;
+	color: #fff;
+	text-decoration: none;
+	
+}
+
+nav ul li a:hover {
+	background: #66F;	
+}
+
+@media screen and (max-width: 500px) {
+	
+	body {
+		font-size: 1em;
+	}
+	
+	nav #logo {
+		display: block;
+		width: 25%;
+		margin: 0 auto;
+		padding-bottom: 1em;
+		
+	}
+	
+	nav ul {
+		display: block;
+		width: 100%;
+		padding-left: 0;
+		padding-bottom: 1em;
+	}
+	
+	nav ul li {
+		display: block;
+		padding-right: 0;
+	}
+	
+	nav ul li a {
+		margin-bottom: 1px;
+		text-align: center;
+	}
+	
+	nav ul li:last-child a {
+		margin-bottom: 0;
+	}
+	
+	
+	
+}
