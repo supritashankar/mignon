@@ -2,10 +2,13 @@ body {
 	background:rgba(220,20,60,0.8);
 }
 
+.logo {
+	margin:1% 0 0 1%;
+}
+
 nav, ul {
 	padding:10px;
 	text-decoration:none;
-	padding:0 0 2% 0;
 }
 
 nav, ul, li {
