@@ -75,9 +75,7 @@ footer {
 	display:block;
 	background:ghostwhite;
     	position: relative;
-    	z-index: 10;
     	height: 1em;
-    	margin-top: -1em;
 }
 
 @media screen and (max-width: 500px) {
