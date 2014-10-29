@@ -1,5 +1,5 @@
 body {
-	background:url(../img/shops.jpg) no-repeat center center fixed;
+	background:url(../img/shops.jpg) no-repeat center center fixed; opacity:0.8;
 	background-size:cover !important;
 }
 
@@ -10,13 +10,22 @@ body {
 .main-header {
         margin: 0, auto;
         color:#458B00;
-        opacity:0.8;
+        opacity:1.0;
         text-align:center;
         font-size:2em;
 	position: absolute;
    	top: 50%;
     	left: 50%;
+	background:black;
     	transform: translateX(-50%) translateY(-50%);
+}
+
+.secondary-header {
+	margin: 0, auto;
+	font-size:1.5em;
+	float:right;
+	color:red;
+	margin-right:0.5em;
 }
 
 nav, ul {
